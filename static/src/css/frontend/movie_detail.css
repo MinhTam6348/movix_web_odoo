@@ -1,0 +1,132 @@
+.img-movie {
+    border-radius: 10px;
+}
+
+.detail-item {
+    margin-top: -52px;
+}
+
+.detail-item h4 {
+    margin-top: 20px;
+}
+
+.top-cash_image {
+    object-fit: cover;
+    object-position: center top;
+    height: 194px;
+    width: 174px;
+}
+
+.card-custom {
+    width: 300px;
+    border: none;
+    background: rgb(4, 21, 45);
+}
+
+.card-custom a {
+    overflow: hidden;
+}
+
+.card-custom a img {
+    border-radius: 10px;
+    height: 400px;
+}
+
+.card-item {
+    padding: 0 70px;
+    height: 500px;
+    width: 400px;
+}
+
+.card-item:hover {
+    opacity: 0.75;
+}
+
+.card-body {
+    color: white;
+    background: #04152d !important;
+}
+
+.card img {
+    width: 220px;
+    height: 300px;
+}
+
+.card-body h3 {
+    font-size: 22px;
+}
+
+.card-text {
+    height: 70px;
+    overflow: hidden;
+}
+
+.playbtn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.playbtn svg {
+    width: 100px;
+    stroke-width: 8;
+}
+
+.playbtn .text {
+    font-size: 30px;
+    transition: all 0.7s ease-in-out;
+    color: white;
+}
+
+.playbtn svg polygon {
+    stroke-dasharray: 240;
+    stroke-dashoffset: 480;
+    stroke: white;
+    transform: translateY(0);
+    transition: all 0.7s ease-in-out;
+}
+.playbtn svg circle {
+    stroke: white;
+    stroke-dasharray: 650;
+    stroke-dashoffset: 1300;
+    transition: all 0.5s ease-in-out;
+}
+
+.playbtn:hover .text {
+    color: var(--pink);
+}
+
+.playbtn:hover svg .triangle {
+    stroke-dashoffset: 0;
+    opacity: 1;
+    stroke: var(--pink);
+    animation: trailorPlay 0.7s ease-in-out;
+}
+
+.playbtn:hover svg .circle {
+    stroke-dashoffset: 0;
+    stroke: var(--pink);
+}
+
+.trailer {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    left: 20%;
+    top: 10%;
+    display: none;
+    transition: all 0.35s ease-in-out;
+}
+
+.closeBtn {
+    position: absolute;
+    left: 92%;
+    top: 5%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    transition: all 0.35s ease-in-out;
+}

@@ -1,0 +1,156 @@
+<odoo>
+    <template id="block_movie_detail" name="Movie detail">
+        <section class="d-background s_text_image pt32 pb32 o_colored_level bg-white-50 o_half_screen_height oe_img_bg o_bg_img_center" data-snippet="s_image_text" data-name="Image - Text" style="background-image: url(&quot;https://image.tmdb.org/t/p/original//4t0oBFrJyweYPt0hocW6RUa0b6H.jpg&quot;);">
+                <div class="o_we_bg_filter" style="background-color: rgba(4, 21, 45, 0.85);"/>
+
+                <div class="container">
+                    <div class="row align-items-start">
+                        <div class="pt16 pb16 o_colored_level col-lg-3" style="">
+                        
+                            <img src="https://image.tmdb.org/t/p/original//1E5baAaEse26fej7uHcjOgEE2t2.jpg" alt="" class="img-movie img img-fluid mx-auto o_we_custom_image" style="width: 300px; height: 400px;" data-resize-width="undefined" loading="lazy" data-bs-original-title="" title="" aria-describedby="tooltip656526"/>
+                        </div>
+                        <div class="detail-item col-lg-6 pt16 pb16 o_colored_level">
+                            <p>&amp;nbsp;</p>
+                            <h1>
+                                <span style="" class="text-200">
+                                    
+                                    <span class="d-title" style="font-size: 48px">Fast X</span></span>
+                            </h1>
+                            <h4>
+                                <font class="text-white"><em class="d-des">Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.</em></font>
+                            </h4>
+                            <h4>&amp;nbsp;<br/></h4>
+                            <div class="s_rating s_rating_inline pt0 pb4" data-vcss="001" data-icon="fa-star" data-snippet="s_rating" data-name="Rating" style="&#10;    display: inline-flex;&#10;">
+                                <div class="s_rating_icons o_not_editable fa-2x">
+                                    <span class="s_rating_active_icons text-o-color-1">
+                                        <i class="star-1 fa "/>
+                                        <i class="star-2 fa "/>
+                                        <i class="star-3 fa "/>
+                                        <i class="star-4 fa "/>
+                                        <i class="star-5 fa "/>
+                                    </span>
+                                </div>
+                                <div class="playbtn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlnsxlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px" viewbox="0 0 213.7 213.7" enablebackground="new 0 0 213.7 213.7" xmlspace="preserve">
+                                        <polygon class="triangle" fill="none" strokewidth="10" strokelinecap="round" strokelinejoin="round" strokemiterlimit="10" points="73.5,62.5 148.5,105.8 73.5,149.1 "/>
+                                        <circle class="circle" fill="none" strokewidth="10" strokelinecap="round" strokelinejoin="round" strokemiterlimit="10" cx="106.8" cy="106.8" r="103.3"/>
+                                    </svg>
+                                    <span class="text">Watch Trailer</span>
+                                </div>
+                                <div>
+                                    <span class="closeBtn" style="display: none;"> Close </span>
+                                    <iframe class="trailer" width="420" height="345" src="" style="display: none;">
+                                    </iframe>
+                                </div>
+                            </div>
+                            <h4><font class="text-white">​</font></h4>
+                            
+                            <h5>
+                                
+                                <font style="font-weight: 600"><font style="" class="text-white">Status :&amp;nbsp;</font></font><font style="" class="d-status text-600">Released</font><font style="" class="text-white">&amp;nbsp; &amp;nbsp;<span style="font-weight: 600">Release Date :&amp;nbsp;</span></font><font style="" class="d-rel-date text-600">May 17, 2023</font><font style="" class="text-white">&amp;nbsp; &amp;nbsp;<span style="font-weight: 600">Runtime :&amp;nbsp;</span></font><font style="" class="d-run-time text-600">2h 22m</font>
+                                &amp;nbsp;
+                            </h5>
+                            <div class="s_hr text-start pb16 pt16" data-snippet="s_hr" data-name="Separator">
+                                <hr class="mx-auto w-75" style="                                         border-top: 1px solid rgb(108, 117, 125);                                     "/>
+                            </div>
+                            <h5>
+                                <font class="text-white">Category :&amp;nbsp;</font><font class="d-category text-600">Neal H. Moritz</font><br/>
+                            </h5>
+                            <div class="s_hr text-start pt16 pb16" data-snippet="s_hr" data-name="Separator">
+                                <hr class="mx-auto w-75" style="                                         border-top: 1px solid rgb(108, 117, 125);                                     "/>
+                            </div>
+                            <h5>
+                                <span style=""><font class="text-white">Director :&amp;nbsp;</font><font class="d-director text-600">Louis Leterrier</font></span>
+                            </h5>
+                            
+                            
+                            <div><br/></div>
+                            <div>
+                                <font class="text-o-color-4"><br/></font>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="s_text_block o_colored_level pt8 pb4" data-snippet="s_text_block" data-name="Text" style="background-color: rgb(4, 21, 45);">
+                <div class="s_allow_columns container">
+                    <h1 style="text-align: center">
+                        <font class="text-o-color-4">Top Cast</font><span style="color: transparent"/><br/>
+                    </h1>
+                </div>
+        </section>
+
+        <section class="s_features pt32 pb32 o_colored_level" data-snippet="s_features" data-name="Features" style="background-color: rgb(4, 21, 45);">
+                <div class="container">
+                    <div class="top-cast row">
+                                <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                                        <img src="https://image.tmdb.org/t/p/original//7rwSXluNWZAluYMOEWBxkPmckES.jpg" onerror="this.onerror = null; this.src=&quot;https://isaca-gwdc.org/wp-content/uploads/2016/12/male-profile-image-placeholder.png&quot;" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                                        <h4>
+                                            <font class="text-white">Vin Diesel </font><br/>
+                                        </h4>
+                                        <h5>
+                                            <font class="text-600">Dominic 'Dom' Toretto</font>
+                                            <br/>
+                                        </h5>
+                                </div>
+                            
+                                <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                                        <img src="https://image.tmdb.org/t/p/original//qsXG5kqxB4XdjLACVY8GXNW6Jfg.jpg" onerror="this.onerror = null; this.src=&quot;https://isaca-gwdc.org/wp-content/uploads/2016/12/male-profile-image-placeholder.png&quot;" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                                        <h4>
+                                            <font class="text-white">Michelle Rodriguez </font><br/>
+                                        </h4>
+                                        <h5>
+                                            <font class="text-600">Letty Ortiz</font>
+                                            <br/>
+                                        </h5>
+                                </div>
+                            
+                                <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                                        <img src="https://image.tmdb.org/t/p/original//1K315wBQBvDBuZMlzoozuGsqFXZ.jpg" onerror="this.onerror = null; this.src=&quot;https://isaca-gwdc.org/wp-content/uploads/2016/12/male-profile-image-placeholder.png&quot;" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                                        <h4>
+                                            <font class="text-white">Tyrese Gibson </font><br/>
+                                        </h4>
+                                        <h5>
+                                            <font class="text-600">Roman Pearce</font>
+                                            <br/>
+                                        </h5>
+                                </div>
+                            
+                                <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                                        <img src="https://image.tmdb.org/t/p/original//erkJijujhe48vhJ8iCEtVpNEeVn.jpg" onerror="this.onerror = null; this.src=&quot;https://isaca-gwdc.org/wp-content/uploads/2016/12/male-profile-image-placeholder.png&quot;" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                                        <h4>
+                                            <font class="text-white">Ludacris </font><br/>
+                                        </h4>
+                                        <h5>
+                                            <font class="text-600">Tej Parker</font>
+                                            <br/>
+                                        </h5>
+                                </div>
+                            
+                                <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                                        <img src="https://image.tmdb.org/t/p/original//rgB2eIOt7WyQjdgJCOuESdDlrjg.jpg" onerror="this.onerror = null; this.src=&quot;https://isaca-gwdc.org/wp-content/uploads/2016/12/male-profile-image-placeholder.png&quot;" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                                        <h4>
+                                            <font class="text-white">John Cena </font><br/>
+                                        </h4>
+                                        <h5>
+                                            <font class="text-600">Jakob Toretto</font>
+                                            <br/>
+                                        </h5>
+                                </div>
+                            
+                                <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                                        <img src="https://image.tmdb.org/t/p/original//koSwmmonFJiZDfwmZgdVA7I1aR.jpg" onerror="this.onerror = null; this.src=&quot;https://isaca-gwdc.org/wp-content/uploads/2016/12/male-profile-image-placeholder.png&quot;" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                                        <h4>
+                                            <font class="text-white">Nathalie Emmanuel </font><br/>
+                                        </h4>
+                                        <h5>
+                                            <font class="text-600">Ramsey</font>
+                                            <br/>
+                                        </h5>
+                                </div>
+                        </div>
+                </div>
+        </section>
+    </template>
+</odoo>

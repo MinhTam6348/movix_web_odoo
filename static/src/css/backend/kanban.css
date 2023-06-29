@@ -1,0 +1,14 @@
+.items-detail {
+    display: flex;
+}
+
+.img-kanban {
+    height: 120px;
+    width: 110px;
+    margin-right: 10px;
+}
+
+.list-item {
+    font-size: 12px !important;
+    font-family: sans-serif;
+}

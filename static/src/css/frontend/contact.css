@@ -1,0 +1,14 @@
+.send-contact {
+    background: var(--gradient);
+    outline: none;
+}
+
+.send-contact:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.about_img {
+    height: 500px;
+    width: 300px;
+}

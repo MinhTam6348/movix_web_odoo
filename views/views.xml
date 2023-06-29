@@ -1,0 +1,12 @@
+<odoo>
+    
+    <menuitem id="base_menu" name="Movie"/>
+
+    <record id="action_movie" model="ir.actions.act_window">
+      <field name="name">Movie</field>
+      <field name="res_model">movie.movix</field>
+      <field name="view_mode">kanban,tree,form</field>
+    </record>
+
+    <menuitem id="menu_movie" name="Movie" parent="base_menu" action="action_movie"/>
+</odoo>

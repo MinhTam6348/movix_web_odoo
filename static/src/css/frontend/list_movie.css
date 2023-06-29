@@ -1,0 +1,137 @@
+.top-list-movie {
+    border-radius: 25px;
+    width: 300px;
+    height: 360px;
+    text-decoration: none;
+}
+
+.main-list-movie,
+.rotate-movies {
+    position: relative;
+    transition: transform ease-in-out 1s;
+    transform-style: preserve-3d;
+}
+
+.main-list-movie:hover,
+.rotate-movies:hover {
+    transform: rotateY(180deg);
+}
+
+.main-list-movie a,
+.rotate-movies a {
+    position: absolute;
+}
+
+.main-list-movie a img {
+    border-radius: 25px;
+}
+
+.link-top-movie-main {
+    display: flex;
+    height: 860px;
+    backface-visibility: hidden;
+}
+
+.link-top-movie-main:hover,
+.rotate-movie:hover {
+    text-decoration: none;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.rotate-movie {
+    display: flex;
+    backface-visibility: hidden;
+    margin-left: -10px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.list-img-sumary {
+    width: 300px;
+    height: 400px;
+}
+
+.back-rotate {
+    height: 300px;
+    width: 220px;
+}
+
+.movie-sumary {
+    width: 634px;
+    list-style-type: none;
+    font-size: 30px;
+    line-height: 55px;
+    color: aliceblue;
+    margin-bottom: 0;
+    padding-left: 0;
+    border-radius: 25px;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+}
+
+.top-movie-sumary {
+    width: 300px;
+    list-style-type: none;
+    height: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding-left: 0;
+    color: aliceblue;
+    border-radius: 25px;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+}
+
+.movie-list-sumary {
+    width: 320px;
+    height: 400px;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    line-height: 32px;
+    font-size: 20px;
+    color: aliceblue;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);
+    text-align: center;
+    overflow: ellipsis;
+}
+
+.top-movie-sumary li:nth-child(2),
+.top-movie-sumary li:nth-child(4) {
+    font-size: 15px;
+    color: gainsboro;
+    font-style: italic;
+}
+
+.movie-sumary li:nth-child(2),
+.movie-sumary li:nth-child(4) {
+    font-size: 25px;
+    color: gainsboro;
+    font-style: italic;
+}
+
+.movie-list-sumary li:nth-child(2),
+.movie-list-sumary li:nth-child(4) {
+    font-size: 15px;
+    color: gainsboro;
+    font-style: italic;
+}
+
+.card-custom {
+    width: 300px;
+    border: none;
+    background: #04152d;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border-radius: 0.25rem;
+}
+
+.movies {
+    justify-content: space-between;
+}

@@ -1,0 +1,372 @@
+<odoo>
+    <template id="block_search" name="Search">
+        <section class="s_cover o_colored_level pt0 pb40 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover" style="background-color: rgb(4, 21, 45); background-image: none;">
+        
+        
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;"><font style="font-size: 62px; font-weight: bold;" class="o_default_snippet_text">​</font><br/></h1><form method="get" data-snippet="s_searchbar_input" class="o_searchbar_form s_searchbar_input" action="/website/search" data-name="Search">
+            <div role="search" class="input-group ">
+        <input type="search" name="search" class="search-input search-query form-control oe_search_box None" placeholder="Search..." data-search-type="all" data-limit="5" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc" autocomplete="off"/>
+        <button type="submit" aria-label="Search" title="Search" class="search-btn btn oe_search_button btn-primary">
+            Search
+        </button>
+        </div>
+            <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+        </form>
+            <p class="lead" style="text-align: center;"><br/></p></div>
+    </section>
+    
+    <section class="s_masonry_block o_colored_level pb64" data-vcss="001" data-vxml="001" data-snippet="s_masonry_block" data-name="Masonry" style="background-color: rgb(4, 21, 45); background-image: none;">
+        <div class="container-fluid">
+            <div class="row o_grid_mode" data-row-count="16" style="">
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+                <div class="main-list-movie moved-1 o_grid_item o_grid_item_image text-center o_colored_level g-col-lg-4 g-height-16 col-lg-4" data-name="Block" style="grid-area: 1 / 2 / 17 / 6; z-index: 1; background-color: rgb(4, 21, 45);">
+                    <a class="link-top-movie-main main font" href="/movie-detail?id=385687">
+                        <img src="https://image.tmdb.org/t/p/original//2e7fc8eNwLXZ5Uvehvl3xj8wVyv.jpg" class="img-sumary img img-fluid mx-auto" alt="" loading="lazy" data-original-id="1647" data-original-src="/website/static/src/img/snippets_demo/s_masonry_block_1.jpg" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                    </a>   
+                    <a class="link-top-movie-main main back" href="/movie-detail?id=385687" data-bs-original-title="" title="">
+                        
+                        <ul class="movie-sumary">
+                            <li>Name</li>
+                            <li id="tit-sumary">Fast X</li>
+                            <li>Description</li>
+                            <li id="des-sumary">Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.</li>
+                            
+                        </ul>
+                    </a>   
+                </div>
+                
+                
+                <div class="rotate-movies top-list-movie moved-2 o_grid_item text-center o_colored_level g-height-6 g-col-lg-2 col-lg-2 o_cc o_cc2" data-name="Block" style="z-index: 5; grid-area: 1 / 7 / 7 / 9; background-color: rgb(4, 21, 45);">
+                    <a href="/movie-detail?id=502356" class="rotate-movie sub font">
+                        <img src="https://image.tmdb.org/t/p/original//9n2tJBplPbgR2ca05hS5CKXwP2c.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                    </a>
+                    <a href="/movie-detail?id=502356" class="rotate-movie sub back" data-bs-original-title="" title="">
+                        <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                            <li>Name</li>
+                            <li id="top-tit-sumary">The Super Mario Bros. Movie</li>
+                            <li>Description</li>
+                            <li id="top-des-sumary">While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.</li>
+                            
+                        </ul>
+                    </a>
+                </div>
+                <div class="rotate-movies top-list-movie moved-3 o_grid_item text-center o_colored_level g-col-lg-2 g-height-6 col-lg-2 o_cc o_cc4" data-name="Block" style="z-index: 7; grid-area: 1 / 10 / 7 / 12; background-color: rgb(4, 21, 45);">
+                    <a href="/movie-detail?id=536437" class="rotate-movie sub font">
+                        <img src="https://image.tmdb.org/t/p/original//8FhKnPpql374qyyHAkZDld93IUw.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                    </a>
+                    <a href="/movie-detail?id=536437" class="rotate-movie sub back" data-bs-original-title="" title="">
+                        <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                            <li>Name</li>
+                            <li id="top-tit-sumary">Hypnotic</li>
+                            <li>Description</li>
+                            <li id="top-des-sumary">A detective becomes entangled in a mystery involving his missing daughter and a secret government program while investigating a string of reality-bending crimes.</li>
+                            
+                        </ul>
+                    </a>
+                </div>
+                <div class="rotate-movies top-list-movie moved-4 o_grid_item text-center o_colored_level g-col-lg-2 g-height-6 col-lg-2 o_cc o_cc3" data-name="Block" style="z-index: 0; grid-area: 10 / 10 / 16 / 12; background-color: rgb(4, 21, 45);">
+                    <a href="/movie-detail?id=569094" class="rotate-movie sub font">
+                        <img src="https://image.tmdb.org/t/p/original//nGxUxi3PfXDRm7Vg95VBNgNM8yc.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                    </a>
+                    <a href="/movie-detail?id=569094" class="rotate-movie sub back" data-bs-original-title="" title="">
+                        <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                            <li>Name</li>
+                            <li id="top-tit-sumary">Spider-Man: Across the Spider-Verse</li>
+                            <li>Description</li>
+                            <li id="top-des-sumary">After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.</li>
+                            
+                        </ul>
+                    </a>
+                </div>
+                <div class="rotate-movies top-list-movie moved-5 o_grid_item text-center o_colored_level g-col-lg-2 g-height-6 col-lg-2 o_cc o_cc2" data-name="Block" style="z-index: 2; grid-area: 10 / 7 / 16 / 9; background-color: rgb(4, 21, 45);">
+                    <a href="/movie-detail?id=667538" class="rotate-movie sub font">
+                        <img src="https://image.tmdb.org/t/p/original//9NgtktUFLm9cnFDFaekx2ROh84f.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                    </a>
+                    <a href="/movie-detail?id=667538" class="rotate-movie sub back" data-bs-original-title="" title="">
+                        <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                            <li>Name</li>
+                            <li id="top-tit-sumary">Transformers: Rise of the Beasts</li>
+                            <li>Description</li>
+                            <li id="top-des-sumary">When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.</li>
+                            
+                        </ul>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="s_three_columns pt32 pb32 o_colored_level o_cc o_cc2" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgb(4, 21, 45); background-image: none;">
+        <div class="container">
+            <div class="row movies d-flex align-items-stretch">
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=605886">
+                                          <img src="https://image.tmdb.org/t/p/original//T5xXoFqyc9jNXZIbH4Sw0jwWjw.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=605886">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>To Catch a Killer</li>
+                                                <li>Description</li>
+                                                <li>Baltimore. New Year's Eve. A talented but troubled police officer is recruited by the FBI's chief investigator to help profile and track down a mass murderer.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=1105803">
+                                          <img src="https://image.tmdb.org/t/p/original//rOKBBs0Hn4yu60wDF7xZUH7CVgh.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=1105803">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Snag</li>
+                                                <li>Description</li>
+                                                <li>An Australian lone wolf's quiet existence is shattered when he learns that the woman he once loved and thought was dead is alive and held captive by ruthless gangsters. Now, to take on this dangerous criminal organization, he must seek out allies and storm into a world of violence to rescue the love of his life in this gritty, modern day violent fairytale.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=804150">
+                                          <img src="https://image.tmdb.org/t/p/original//8K9UjencUfDVS4nKFmSk4URSoeU.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=804150">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Cocaine Bear</li>
+                                                <li>Description</li>
+                                                <li>Inspired by a true story, an oddball group of cops, criminals, tourists and teens converge in a Georgia forest where a 500-pound black bear goes on a murderous rampage after unintentionally ingesting cocaine.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=638974">
+                                          <img src="https://image.tmdb.org/t/p/original//3ZRSDh5GootTeo2gAdOyUDosCmm.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=638974">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Murder Mystery 2</li>
+                                                <li>Description</li>
+                                                <li>After starting their own detective agency, Nick and Audrey Spitz land a career-making case when their billionaire pal is kidnapped from his wedding.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=1102776">
+                                          <img src="https://image.tmdb.org/t/p/original//zPEDfWece7gg1I0904KFFVUq5mg.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=1102776">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>AKA</li>
+                                                <li>Description</li>
+                                                <li>A steely special ops agent finds his morality put to the test when he infiltrates a crime syndicate and unexpectedly bonds with the boss' young son.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=414906">
+                                          <img src="https://image.tmdb.org/t/p/original//b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=414906">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>The Batman</li>
+                                                <li>Description</li>
+                                                <li>In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=809787">
+                                          <img src="https://image.tmdb.org/t/p/original//gGZxCy9keK0D6TxbmS8GJj85Ut4.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=809787">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Mafia Mamma</li>
+                                                <li>Description</li>
+                                                <li>A suburban American woman inherits her grandfather’s Mafia empire and, guided by the Firm’s trusted consigliere, defies everyone’s expectations, including her own, as the new head of the family business.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=324552">
+                                          <img src="https://image.tmdb.org/t/p/original//r17jFHAemzcWPPtoO0UxjIX0xas.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=324552">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>John Wick: Chapter 2</li>
+                                                <li>Description</li>
+                                                <li>John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=235331">
+                                          <img src="https://image.tmdb.org/t/p/original/null" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=235331">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>High School Lynching</li>
+                                                <li>Description</li>
+                                                <li>A high school student is captured and sexually tortured.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=1013860">
+                                          <img src="https://image.tmdb.org/t/p/original//kmzppWh7ljL6K9fXW72bPN3gKwu.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=1013860">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>R.I.P.D. 2: Rise of the Damned</li>
+                                                <li>Description</li>
+                                                <li>When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=385128">
+                                          <img src="https://image.tmdb.org/t/p/original//xXHZeb1yhJvnSHPzZDqee0zfMb6.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=385128">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>F9</li>
+                                                <li>Description</li>
+                                                <li>Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=458156">
+                                          <img src="https://image.tmdb.org/t/p/original//vVpEOvdxVBP2aV166j5Xlvb5Cdc.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=458156">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>John Wick: Chapter 3 - Parabellum</li>
+                                                <li>Description</li>
+                                                <li>Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=168259">
+                                          <img src="https://image.tmdb.org/t/p/original//cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=168259">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Furious 7</li>
+                                                <li>Description</li>
+                                                <li>Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=337404">
+                                          <img src="https://image.tmdb.org/t/p/original//f8sYAxcM3zRwe4P8cnjKFidq3Jh.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=337404">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Cruella</li>
+                                                <li>Description</li>
+                                                <li>In 1970s London amidst the punk rock revolution, a young grifter named Estella is determined to make a name for herself with her designs. She befriends a pair of young thieves who appreciate her appetite for mischief, and together they are able to build a life for themselves on the London streets. One day, Estella’s flair for fashion catches the eye of the Baroness von Hellman, a fashion legend who is devastatingly chic and terrifyingly haute. But their relationship sets in motion a course of events and revelations that will cause Estella to embrace her wicked side and become the raucous, fashionable and revenge-bent Cruella.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        
+                          <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                  <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                      <a class="rotate-movie" href="/movie-detail?id=238">
+                                          <img src="https://image.tmdb.org/t/p/original//tmU7GeKVybMWFButWEGl2M4GeiP.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                      </a>
+                                      <a class="rotate-movie back" href="/movie-detail?id=238">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>The Godfather</li>
+                                                <li>Description</li>
+                                                <li>Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.</li>
+                                            </ul>
+                                        </a>
+                                  </div>
+                              </div>
+                        </div>
+        </div>
+    </section>
+    <div class="center">
+            <div class="pagination">
+                <a href="/category?name=crime&amp;page=1" class="active">1</a>
+                <a href="/category?name=crime&amp;page=2">2</a>
+                <a href="/category?name=crime&amp;page=3">3</a>
+                <a href="/category?name=crime&amp;page=4">4</a>
+                <a href="/category?name=crime&amp;page=5">5</a>
+                <a href="/category?name=crime&amp;page=6">6</a>
+            </div>
+        </div>
+    </template>
+</odoo>

@@ -1,0 +1,89 @@
+<odoo>
+    <template id="block_about" name="About">
+        <section class="s_text_block o_colored_level pb0 pt32" data-snippet="s_text_block" data-name="Text" style="background-color: rgba(4, 21, 45, 0.95); background-image: none;">
+            <div class="s_allow_columns container" style=""><h3/><h2><strong><font class="text-o-color-4">About Movix</font></strong></h2><p style=""><span style="font-size: 18px;"><em><font class="text-o-color-4">Movix is the premiaere online destination for movie enthusiasts, providing the latest news and information on casting and development, release dates, trailers, interviews and clips, full movies and more. Movix keeps users connected to all their favorites, past, present and future. As a top social entertainment network, Movix is revolutionizing the way you discover, watch and discuss the movies you love.</font></em></span></p><p style=""><font class="text-o-color-4"><span style="font-size: 18px;"><em>Online since 2023, Movix was one of the first movie sites to appear on the web. Covering the industry from our teams in NY, LA, and beyond, MovieWeb continues to be one of the most trusted destinations for the connected generation.</em></span></font></p><p style=""><span style="font-size: 18px;"><em><font class="text-o-color-4">Valnet Inc.'s team of editorial contributors obsessively covers movies, television, streaming and pop culture from locations around the globe, delivering the best coverage, news and insight to over 200MM users annually across our sites and branded platforms. Our contributors are as diverse as their locations: passionate movie and TV fans, expert analysts, students of film and television, writers, video producers and more. Contributors have included famous screenwriters, well known television hosts and many others – united by their love of entertainment. Valnet Inc. opens its pages to highly engaged contributors – allowing them to share their unique insights, analysis and opinion across its platforms.</font></em></span></p></div>
+        </section>
+        
+        <section class="s_title pt40 pb40 o_colored_level" data-vcss="001" data-snippet="s_title" data-name="Title" style="background-color: rgba(4, 21, 45, 0.95); background-image: none;">
+        <div class="s_allow_columns container">
+            <h1 style="text-align: center;">
+            <font style="font-size: 62px;" class="o_default_snippet_text">
+            </font></h1><h2 style="text-align: center;"><span style="font-size: 36px;"><font class="text-white"><span style="font-size: 48px;">The Team</span></font></span></h2></div>
+        </section>
+
+        <section class="s_features pt32 pb32 o_colored_level" data-snippet="s_features" data-name="Features" style="background-color: rgba(4, 21, 45, 0.95); background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                            <img src="https://image.tmdb.org/t/p/original/7guPuc72BdIYfyaPxVPcPejjw2B.jpg" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" style="object-fit: cover; object-position: center top; height: 194px; width: 174px;" data-bs-original-title="" title="" aria-describedby="tooltip161795" loading="lazy"/>
+                            <h4>
+                                <font class="text-white">Jovan Adepo </font><br/>
+                            </h4>
+                            <h5>
+                                <font class="text-600">MacKenzie</font>
+
+                                <br/>
+                            </h5>
+                        </div>
+                        <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                            <img src="&#9;https://image.tmdb.org/t/p/original/uR570A4TxJhfWMuNh9S9JlnwBlx.jpg" alt="" class="top-cash_image m-3 rounded-circle img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip63196" loading="lazy" style=""/>
+                            <h4>
+                                <font class="text-white">
+                                    Rosemary Dunsmore </font><br/>
+                            </h4>
+                            <h5>
+                                <font class="text-600">Mrs. Possey</font>
+
+                                <br/>
+                            </h5>
+                        </div>
+                        <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                            <img src="https://image.tmdb.org/t/p/original/pA9mu9D2IolVA0v2Yo0tJm6uUyI.jpg" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" loading="lazy" style=""/>
+                            <h4>
+                                <font class="text-white"> Ben Mendelsohn </font><br/>
+                            </h4>
+                            <h5>
+                                <span style="font-size: 18px"><font class="text-600">Geoffrey Lammark</font></span>
+
+                                <br/>
+                            </h5>
+                        </div>
+                        <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                            <img src="https://image.tmdb.org/t/p/original/gnleHTtPw9k2PwTncNWH7hKh21m.jpg" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" loading="lazy" style=""/>
+                            <h4>
+                                <font class="text-white">
+                                    Shailene Woodley </font><br/>
+                            </h4>
+                            <h5>
+                                <font class="text-600">Eleanor Falco</font>
+
+                                <br/>
+                            </h5>
+                        </div>
+                        <div class="pt32 pb32 text-center o_colored_level col-lg-2" style="">
+                            <img src="https://image.tmdb.org/t/p/original/tBiNgNX2gbj06mQg0Lm4ElNCjt4.jpg" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" loading="lazy" style=""/>
+                            <h4>
+                                <font class="text-white"> Jason Cavalier </font><br/>
+                            </h4>
+                            <h5>
+                                <font class="text-600">Marquand</font>
+
+                                <br/>
+                            </h5>
+                        </div>
+                        <div class="pt32 pb32 text-center o_colored_level col-lg-2">
+                            <img src="https://image.tmdb.org/t/p/original/sn3ONJw2pJxMHiCqPwvkaiWr5mc.jpg" alt="" class="top-cash_image m-3 img img-fluid o_we_custom_image rounded-circle" data-resize-width="undefined" loading="lazy" style=""/>
+                            <h4>
+                                <font class="text-white"> Ralph Ineson </font><br/>
+                            </h4>
+                            <h5>
+                                <font class="text-600">Dean Possey</font>
+
+                                <br/>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </template>
+</odoo>

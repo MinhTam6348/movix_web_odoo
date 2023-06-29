@@ -1,0 +1,82 @@
+<odoo>
+    <template id="block_home" name="Home">
+        <section class="s_cover parallax s_parallax_is_fixed bg-black-50 pt96 o_colored_level pb96 o_full_screen_height" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover" style="background-image: none;">
+            <span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url(&quot;https://c4.wallpaperflare.com/wallpaper/862/449/162/jack-reacher-star-wars-interstellar-movie-john-wick-wallpaper-preview.jpg&quot;); background-position: 50% 0px;"/>
+            <div class="o_we_bg_filter bg-black-75 o_we_force_no_transition" style=""/>
+            <div class="s_allow_columns container">
+                <h1 style="text-align: center;">
+                    <font style="font-size: 62px; font-weight: bold;">Welcome</font>
+                    <br/>
+                </h1>
+                <h3 class="lead" style="text-align: center;">
+                    <span style="font-size: 36px;">
+                        <strong><em>Millions of movies , TV shows an people to discover . Explore now</em></strong>
+                    </span>
+                </h3>
+            </div>
+        </section>
+
+        <section class="s_text_image pt32 pb32 o_colored_level bg-black" data-snippet="s_text_image" data-name="Text - Image" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pt16 pb16 o_colored_level">
+                        <h2 style="text-align: center;">
+                            <span style="font-size: 36px;">Enjoy on your TV</span>
+                            <br/>
+                        </h2>
+                        <h4 style="text-align: center;"><em>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</em></h4>
+                    </div>
+                    <div class="video col-lg-6 pt16 pb16 o_colored_level">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" class="img img-fluid mx-auto o_we_custom_image" data-resize-width="undefined" loading="lazy" style="width: 100%;"/>
+                        <div class="video-item">
+                            <video data-uia="nmhp-card-animation-asset-video" autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop">
+                                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" type="video/mp4"></source>
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="s_text_image pt32 pb32 o_colored_level bg-black" data-snippet="s_image_text" data-name="Image - Text" style="background-image: none;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="videoo col-lg-6 pt16 pb16 o_colored_level">
+                        <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-vn.png" alt="" class="img img-fluid mx-auto o_we_custom_image" data-resize-width="undefined" loading="lazy" style="" data-bs-original-title="" title="" aria-describedby="tooltip130352"/>
+                        <div class="video-itemm">
+                            <video autoplay="autoplay" playsinline="playsinline" muted="muted" loop="loop">
+                                <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-vn.m4v" type="video/mp4"></source>
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt16 pb16 o_colored_level" style="">
+                        <h2 style="text-align: center;">
+                            <span style="font-size: 36px;">See it everywhere</span>
+                            <br/>
+                        </h2>
+                        <h4 style="text-align: center;">
+                            <em>Stream unlimited movies and TV shows on phones, tablets, laptops and TVs.</em>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_cover o_colored_level pb32 s_parallax_no_overflow_hidden bg-black pt24" data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover" style="background-image: none;" id="Are-you-ready-to-watch%3F-Enter-your-email-to-create-or-reactivate-your-membership.%E2%80%8B" data-anchor="true">    
+            <div class="s_allow_columns o_container_small">
+                <h4 class="email-text" style="text-align: center;">
+                    <em>Are you ready to watch? Enter your email to create or reactivate your membership.</em>​
+                    <br/>
+                </h4>
+                <div class="s_newsletter_subscribe_form s_newsletter_list js_subscribe" data-vxml="001" data-list-id="1" data-name="Newsletter" data-snippet="s_newsletter_subscribe_form">
+                    <div class="input-group">
+                        <input type="email" name="email" class="email-input js_subscribe_value form-control" placeholder="your email..."/>
+                        <a role="button" href="#" class="email-btn btn btn-primary js_subscribe_btn o_submit" data-bs-original-title="" title="">Subscribe</a>
+                        <a role="button" href="#" class="email-btn btn btn-success js_subscribed_btn o_submit o_default_snippet_text d-none" disabled="disabled">Thanks</a>
+                    </div>
+                </div>
+                <p class="lead" style="text-align: center;"><br/></p>
+            </div>
+        </section>
+    </template>
+</odoo>

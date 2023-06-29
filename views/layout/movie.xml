@@ -1,0 +1,357 @@
+<odoo>
+    <template id="block_movie" name="Movie">
+        <section class="s_cover o_colored_level pt0 pb40 s_parallax_no_overflow_hidden" data-scroll-background-ratio="0" data-snippet="s_cover" data-name="Cover" style="background-color: rgb(4, 21, 45); background-image: none;">  
+            <div class="s_allow_columns container">
+                <h1 style="text-align: center;">
+                    <font style="font-size: 62px; font-weight: bold;" class="o_default_snippet_text">​</font>
+                    <br/>
+                </h1>
+                <form method="get" data-snippet="s_searchbar_input" class="o_searchbar_form s_searchbar_input" action="/website/search" data-name="Search">
+                    <div role="search" class="input-group ">
+                        <input type="search" name="search" class="search-input search-query form-control oe_search_box None" placeholder="Search..." data-search-type="all" data-limit="5" data-display-image="true" data-display-description="true" data-display-extra-link="true" data-display-detail="true" data-order-by="name asc" autocomplete="off"/>
+                        <button type="submit" aria-label="Search" title="Search" class="search-btn btn oe_search_button btn-primary">
+                        Search
+                        </button>
+                    </div>
+                    <input name="order" type="hidden" class="o_search_order_by" value="name asc"/>
+                </form>
+                <p class="lead" style="text-align: center;"><br/></p></div>
+        </section>
+    
+        <section class="s_masonry_block o_colored_level pb64" data-vcss="001" data-vxml="001" data-snippet="s_masonry_block" data-name="Masonry" style="background-color: rgb(4, 21, 45); background-image: none;">
+            <div class="container-fluid">
+                <div class="row o_grid_mode" data-row-count="16" style="">   
+                    <div class="main-list-movie moved-1 o_grid_item o_grid_item_image text-center o_colored_level g-col-lg-4 g-height-16 col-lg-4" data-name="Block" style="grid-area: 1 / 2 / 17 / 6; z-index: 1; background-color: rgb(4, 21, 45);">
+                        <a class="link-top-movie-main main font" href="/movie-detail?id=385687">
+                            <img src="https://image.tmdb.org/t/p/original//2e7fc8eNwLXZ5Uvehvl3xj8wVyv.jpg" class="img-sumary img img-fluid mx-auto" alt="" loading="lazy" data-original-id="1647" data-original-src="/website/static/src/img/snippets_demo/s_masonry_block_1.jpg" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                        </a>   
+                        <a class="link-top-movie-main main back" href="/movie-detail?id=385687" data-bs-original-title="" title="">            
+                            <ul class="movie-sumary">
+                                <li>Name</li>
+                                <li id="tit-sumary">Fast X</li>
+                                <li>Description</li>
+                                <li id="des-sumary">Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.</li>    
+                            </ul>
+                        </a>   
+                    </div>
+                    
+                    <div class="rotate-movies top-list-movie moved-2 o_grid_item text-center o_colored_level g-height-6 g-col-lg-2 col-lg-2 o_cc o_cc2" data-name="Block" style="z-index: 5; grid-area: 1 / 7 / 7 / 9; background-color: rgb(4, 21, 45);">
+                        <a href="/movie-detail?id=502356" class="rotate-movie sub font">
+                            <img src="https://image.tmdb.org/t/p/original//9n2tJBplPbgR2ca05hS5CKXwP2c.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                        </a>
+                        <a href="/movie-detail?id=502356" class="rotate-movie sub back" data-bs-original-title="" title="">
+                            <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                                <li>Name</li>
+                                <li id="top-tit-sumary">The Super Mario Bros. Movie</li>
+                                <li>Description</li>
+                                <li id="top-des-sumary">While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi.</li>
+                                
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="rotate-movies top-list-movie moved-3 o_grid_item text-center o_colored_level g-col-lg-2 g-height-6 col-lg-2 o_cc o_cc4" data-name="Block" style="z-index: 7; grid-area: 1 / 10 / 7 / 12; background-color: rgb(4, 21, 45);">
+                        <a href="/movie-detail?id=536437" class="rotate-movie sub font">
+                            <img src="https://image.tmdb.org/t/p/original//8FhKnPpql374qyyHAkZDld93IUw.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                        </a>
+                        <a href="/movie-detail?id=536437" class="rotate-movie sub back" data-bs-original-title="" title="">
+                            <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                                <li>Name</li>
+                                <li id="top-tit-sumary">Hypnotic</li>
+                                <li>Description</li>
+                                <li id="top-des-sumary">A detective becomes entangled in a mystery involving his missing daughter and a secret government program while investigating a string of reality-bending crimes.</li>
+                                
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="rotate-movies top-list-movie moved-4 o_grid_item text-center o_colored_level g-col-lg-2 g-height-6 col-lg-2 o_cc o_cc3" data-name="Block" style="z-index: 0; grid-area: 10 / 10 / 16 / 12; background-color: rgb(4, 21, 45);">
+                        <a href="/movie-detail?id=569094" class="rotate-movie sub font">
+                            <img src="https://image.tmdb.org/t/p/original//nGxUxi3PfXDRm7Vg95VBNgNM8yc.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                        </a>
+                        <a href="/movie-detail?id=569094" class="rotate-movie sub back" data-bs-original-title="" title="">
+                            <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                                <li>Name</li>
+                                <li id="top-tit-sumary">Spider-Man: Across the Spider-Verse</li>
+                                <li>Description</li>
+                                <li id="top-des-sumary">After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse’s very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.</li>
+                                
+                            </ul>
+                        </a>
+                    </div>
+                    <div class="rotate-movies top-list-movie moved-5 o_grid_item text-center o_colored_level g-col-lg-2 g-height-6 col-lg-2 o_cc o_cc2" data-name="Block" style="z-index: 2; grid-area: 10 / 7 / 16 / 9; background-color: rgb(4, 21, 45);">
+                        <a href="/movie-detail?id=667538" class="rotate-movie sub font">
+                            <img src="https://image.tmdb.org/t/p/original//9NgtktUFLm9cnFDFaekx2ROh84f.jpg" class="img-sumary list-img-sumary" alt="" loading="lazy" data-original-id="1647" data-mimetype="image/jpeg" data-bs-original-title="" title="" aria-describedby="tooltip63808" style=""/>
+                        </a>
+                        <a href="/movie-detail?id=667538" class="rotate-movie sub back" data-bs-original-title="" title="">
+                            <ul class="top-movie-sumary" style="&#10;    margin-right: 0;&#10;    margin-bottom: 0;&#10;">
+                                <li>Name</li>
+                                <li id="top-tit-sumary">Transformers: Rise of the Beasts</li>
+                                <li>Description</li>
+                                <li id="top-des-sumary">When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.</li>
+                                
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="s_three_columns pb32 o_colored_level pt0 o_cc o_cc2" data-vcss="001" data-snippet="s_three_columns" data-name="Columns" style="background-color: rgb(4, 21, 45); background-image: none;">
+            <div class="container">
+                <div class="row movies d-flex align-items-stretch">
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=298618">
+                                        <img src="https://image.tmdb.org/t/p/original//kIX6VS5FTMURcK3WlNNkPss60e4.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=298618">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>The Flash</li>
+                                                <li>Description</li>
+                                                <li>When his attempt to save his family inadvertently alters the future, Barry Allen becomes trapped in a reality in which General Zod has returned and there are no Super Heroes to turn to. In order to save the world that he is in and return to the future that he knows, Barry's only hope is to race for his life. But will making the ultimate sacrifice be enough to reset the universe?</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=536437">
+                                        <img src="https://image.tmdb.org/t/p/original//vQ5T84t8h4N2xAswNFW9fkVIyZq.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=536437">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Hypnotic</li>
+                                                <li>Description</li>
+                                                <li>A detective becomes entangled in a mystery involving his missing daughter and a secret government program while investigating a string of reality-bending crimes.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=667538">
+                                        <img src="https://image.tmdb.org/t/p/original//9NgtktUFLm9cnFDFaekx2ROh84f.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=667538">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Transformers: Rise of the Beasts</li>
+                                                <li>Description</li>
+                                                <li>When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=1074034">
+                                        <img src="https://image.tmdb.org/t/p/original//dTsOvK19Brm1u2p06K7qlTyKHIi.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=1074034">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Ambush</li>
+                                                <li>Description</li>
+                                                <li>When a small outpost is ambushed, a US Army squad must take the battle below ground on a high-stakes mission in a new type of warfare the likes of which they have never seen.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=447277">
+                                        <img src="https://image.tmdb.org/t/p/original//ribiMu3iINPxDkofErPxe8jQ8L0.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=447277">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>The Little Mermaid</li>
+                                                <li>Description</li>
+                                                <li>The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric. With mermaids forbidden to interact with humans, Ariel makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land, but ultimately places her life – and her father’s crown – in jeopardy.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=76600">
+                                        <img src="https://image.tmdb.org/t/p/original//8rpDcsfLJypbO6vREc0547VKqEv.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=76600">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Avatar: The Way of Water</li>
+                                                <li>Description</li>
+                                                <li>Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=447365">
+                                        <img src="https://image.tmdb.org/t/p/original//5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=447365">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Guardians of the Galaxy Vol. 3</li>
+                                                <li>Description</li>
+                                                <li>Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=890771">
+                                        <img src="https://image.tmdb.org/t/p/original//9t0tJXcOdWwwxmGTk112HGDaT0Q.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=890771">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>The Black Demon</li>
+                                                <li>Description</li>
+                                                <li>Oilman Paul Sturges' idyllic family vacation turns into a nightmare when they encounter a ferocious megalodon shark that will stop at nothing to protect its territory. Stranded and under constant attack, Paul and his family must somehow find a way to get his family back to shore alive before it strikes again in this epic battle between humans and nature.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=713704">
+                                        <img src="https://image.tmdb.org/t/p/original//aAgGrfBwna1nO4M2USxwFgK5O0t.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=713704">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Evil Dead Rise</li>
+                                                <li>Description</li>
+                                                <li>A reunion between two estranged sisters gets cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=840326">
+                                        <img src="https://image.tmdb.org/t/p/original//94TIUEhuwv8PhdIADEvSuwPljS5.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=840326">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Sisu</li>
+                                                <li>Description</li>
+                                                <li>Deep in the wilderness of Lapland, Aatami Korpi is searching for gold but after he stumbles upon Nazi patrol, a breathtaking and gold-hungry chase through the destroyed and mined Lapland wilderness begins.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=640146">
+                                        <img src="https://image.tmdb.org/t/p/original//m8JTwHFwX7I7JY5fPe4SjqejWag.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=640146">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Ant-Man and the Wasp: Quantumania</li>
+                                                <li>Description</li>
+                                                <li>Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=697843">
+                                        <img src="https://image.tmdb.org/t/p/original//wRxLAw4l17LqiFcPLkobriPTZAw.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=697843">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Extraction 2</li>
+                                                <li>Description</li>
+                                                <li>Tasked with extracting a family who is at the mercy of a Georgian gangster, Tyler Rake infiltrates one of the world's deadliest prisons in order to save them. But when the extraction gets hot, and the gangster dies in the heat of battle, his equally ruthless brother tracks down Rake and his team to Sydney, in order to get revenge.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=594767">
+                                        <img src="https://image.tmdb.org/t/p/original//28WypBR9DhbHyhmDhgxQLmkf5aQ.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=594767">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Shazam! Fury of the Gods</li>
+                                                <li>Description</li>
+                                                <li>Billy Batson and his foster siblings, who transform into superheroes by saying "Shazam!", are forced to get back into action and fight the Daughters of Atlas, who they must stop from using a weapon that could destroy the world.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=879444">
+                                        <img src="https://image.tmdb.org/t/p/original//fIlmxFWplRXTACPoGnOuwIwzBuF.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=879444">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Accident Man: Hitman's Holiday</li>
+                                                <li>Description</li>
+                                                <li>The Accident Man is back, and this time he must best the top assassins in the world to protect the ungrateful son of a mafia boss, save the life of his only friend and rekindle his relationship with his maniacal father figure.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        
+                            <div class="card-item s_col_no_bgcolor pt16 pb16 col-lg-3 " style="">
+                                <div class="rotate-movies card-custom text-bg-white h-100" style="">
+                                    <a class="rotate-movie" href="/movie-detail?id=1107872">
+                                        <img src="https://image.tmdb.org/t/p/original//gFiPQZh6W2qEVKYnAQjtq66qJqI.jpg" onerror="this.onerror = null; this.src=&quot;https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=&quot;" alt="" class="card-img-top img img-fluid o_we_custom_image" data-resize-width="undefined" data-bs-original-title="" title="" aria-describedby="tooltip303140" loading="lazy"/>
+                                    </a>
+                                    <a class="rotate-movie back" href="/movie-detail?id=1107872">
+                                            <ul class="movie-list-sumary">
+                                                <li>Name</li>
+                                                <li>Mother's Day</li>
+                                                <li>Description</li>
+                                                <li>Nina, a former NATO special operations agent living in hiding, has to use all her deadly skills to rescue her son who has been kidnapped by ruthless gangsters. Finding Max is a double opportunity for her. A chance to feel the adrenaline rush again, and an opportunity to get back into the life of the son she had to abandon years ago.</li>
+                                            </ul>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </section>
+
+        <div class="center">
+            <div class="pagination">
+                
+                <a href="/movie?page=1" class="active">1</a>
+                <a href="/movie?page=2">2</a>
+                <a href="/movie?page=3">3</a>
+                <a href="/movie?page=4">4</a>
+                <a href="/movie?page=5">5</a>
+                <a href="/movie?page=6">6</a>
+                
+            </div>
+        </div>
+    </template>
+</odoo>
